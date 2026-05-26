@@ -39,7 +39,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #menu h2 {
@@ -108,7 +108,7 @@ body {
     height: auto;
     border-radius: 20px;
     margin: 30px 0;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     display: block;
     background: linear-gradient(135deg, var(--cor3), var(--cor2));
     min-height: 200px;
@@ -134,12 +134,12 @@ body {
     border-radius: 40px;
     padding: 10px 15px;
     transition: var(--transition-padrao);
-    border: 1px solid rgba(0,0,0,0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .grid-lista li:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .grid-lista li a {
@@ -180,7 +180,7 @@ body {
     border-radius: 20px;
     padding: 20px 10px;
     transition: var(--transition-padrao);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .grid-equipe li:hover {
@@ -225,7 +225,7 @@ body {
     font-size: 0.85rem;
     opacity: 0.8;
     margin-top: 20px;
-    border-top: 1px solid rgba(255,255,255,0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     display: inline-block;
     padding-top: 20px;
 }
@@ -236,19 +236,24 @@ body {
         margin: 8px 0;
         padding: 6px;
     }
+
     #menu h2 {
         font-size: 1rem;
     }
+
     #topo h1 {
         font-size: 1.8rem;
     }
+
     #topo p {
         font-size: 1rem;
     }
+
     .grid-lista {
         grid-template-columns: 1fr;
         gap: 10px;
     }
+
     .grid-equipe {
         grid-template-columns: 1fr;
         gap: 15px;
@@ -259,12 +264,15 @@ body {
     body {
         font-size: 14px;
     }
+
     #menu a {
         font-size: 16px;
     }
+
     .titulo-rodape {
         font-size: 1.2rem;
     }
+
     .imagem-principal {
         border-radius: 12px;
     }
